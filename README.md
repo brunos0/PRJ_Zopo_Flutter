@@ -1,16 +1,26 @@
-# teste
+# Zopo
 
-A new Flutter project.
+A Flutter App project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is just a Small App Project created by Bruno$0 to pratice the Dart/Flutter Language.
 
-A few resources to get you started if this is your first Flutter project:
+Hope you enjoy it. ;)
+Bruno$0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## What's new
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.0.1
+Changed the Project name.
+Changed the package name.
+Added the Android icon.
+Added the Sign key.
+Published at PlayStore. Lol B)
+ 
+1.0.0
+First Release
+
+## What's next
+
+Who knows?
