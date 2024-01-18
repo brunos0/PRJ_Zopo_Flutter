@@ -1,4 +1,4 @@
-import "package:flutter/Material.dart";
+import "package:flutter/material.dart";
 import "main.dart";
 import "butao.dart";
 
@@ -24,8 +24,6 @@ class Questionario extends StatelessWidget {
     return Column(
       children: <Widget>[
         Zoom(_listIn[nvezes]["texto"].toString()),
-        //Butao((list1[nvezes]["resposta"] as List)[0], funcBtn1),
-        //...resp,
         ...widgets,
       ],
     );

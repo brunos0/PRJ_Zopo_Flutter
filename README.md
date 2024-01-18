@@ -12,6 +12,15 @@ Bruno$0
 
 ## What's new
 
+### 1.0.3
+
+Update Sdk Version to match google play store requirements.  
+cleaning code performed  
+
+### 1.0.2
+
+Source Code versioned
+
 ### 1.0.1
 
 Changed the Project name.  

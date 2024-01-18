@@ -1,8 +1,6 @@
-import 'package:flutter/Material.dart';
-//import 'butao.dart';
+import 'package:flutter/material.dart';
 import 'resultado.dart';
 import 'questionario.dart';
-//import 'dart:math';
 
 List listResp = [0, 0, 0];
 
@@ -30,7 +28,6 @@ class ZopoState extends State<Zopo> {
     setState(() {
       nvezes++;
     });
-    //print("a");
   }
 
   void restart() {
@@ -50,19 +47,6 @@ class ZopoState extends State<Zopo> {
 
   @override
   Widget build(BuildContext context) {
-    /*
-    List<String> respostas =
-        temPerg ? _list1[nvezes]['resposta'] as List<String> : [""];
-
-    List<Widget> widgets = respostas.map((t) => Butao(t, funcBtn1)).toList();
-    */
-    /*
-    List<Widget> resp = [];
-    for (String textoResp in (list1[nvezes]['resposta'] as List)) {
-      //print(textoResp.toString());
-      resp.add(Butao(textoResp, funcBtn1));
-    }
-    */
     return MaterialApp(
         theme: ThemeData(
             scaffoldBackgroundColor: listResp[0] == 0
@@ -89,25 +73,12 @@ class ZopoState extends State<Zopo> {
                     ? Questionario(_list1, temPerg, nvezes, funcBtn1)
                     : Resultado(restart),
                 Text("Desenvolvido por Bruno Horvat",
-                    style: TextStyle(fontSize: 28, color: Colors.white
-                        /*,
-                        backgroundColor: listResp[0] == 0
-                            ? Colors.orange.shade300
-                            : listResp[0] == 1
-                                ? Colors.blue.shade300
-                                : listResp[0] == 2
-                                    ? Colors.green.shade300
-                                    : listResp[0] == 3
-                                        ? Colors.yellow.shade300
-                                        : Colors.red.shade300),
-                  */
-                        )),
+                    style: TextStyle(fontSize: 28, color: Colors.white)),
               ],
             )));
   }
 }
 
-//this._listIn, this.temPerg, this.nvezes, this.funcBtnIn,
 class Zopo extends StatefulWidget {
   const Zopo({super.key});
 
@@ -123,7 +94,6 @@ class Zoom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //width: double.infinity,
       margin: const EdgeInsets.all(2),
       child: Text(
         texto,
