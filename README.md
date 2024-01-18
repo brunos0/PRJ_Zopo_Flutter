@@ -34,4 +34,13 @@ First Release
 
 ## What's next  
 
-Who knows?
+Who knows?  
+
+## Importants Notes  
+
+In order to make this app build an apk file to publish on play store, 
+you must have key.properties inside the android folder and the jks file.
+Take a look into the env repo to get it.  
+
+to build an aab file, run this command:
+/home/bruno/Área de Trabalho/flutter/zopo/android/key.properties

@@ -3,7 +3,7 @@ description: This project is just a small app created by Bruno$0 to pratice the 
 
 publish_to: 'none'
 
-version: 1.0.3+1
+version: 1.0.1+2
 
 environment:
   sdk: '>=3.2.5 <4.0.0'
